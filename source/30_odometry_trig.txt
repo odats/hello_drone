@@ -1,0 +1,32 @@
+-101
+000
+101
+
+
+LEFT
+Setting a = -180:
+	•	cos(-180) or cos(180) is -1.
+	•	sin(-180) or sin(180) is 0.
+
+x += int(dInterval * cos(-180))  # cos(-180) is -1
+x += int(dInterval * -1)
+x -= int(dInterval)
+
+y += int(d * math.sin(math.radians(a)))
+y += int(d * 0)
+Y += 0
+
+
+
+UP
+
+cos(270) is 0.
+sin(270) is -1.
+
+x += int(dInterval * cos(math.radians(270)))  # cos(270) is 0
+x += int(dInterval * 0)
+x += 0  # No change in x-coordinate
+
+y += int(dInterval * sin(math.radians(270)))  # sin(270) is -1
+y += int(dInterval * -1)
+y -= int(dInterval)  # Decrease y-coordinate
