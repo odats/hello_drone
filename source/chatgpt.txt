@@ -1,0 +1,10 @@
+Imagine we are working with a Tello drone robot. 
+The job of this robot is to fly to objects based on my requests.
+
+The main functions you can use are:
+{CODE}
+
+Are you ready?
+
+
+I am thirsty. Find me a drink
