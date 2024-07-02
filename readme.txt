@@ -16,10 +16,10 @@ Possible issues / solutions (solves 90% of all issues):
 - use macos
 
 Tasks:
-	1.	Define the route, fly, and return.
-	2.	Capture black and white video.
-	3.	Add an arrow that shows directions.
-	4.	Track only cups.
+	1.	(Basic control) Define the route, fly, and return.
+	2.	(OpenCV) Capture black and white video.
+	3.	(Odometry) Add an arrow that shows directions.
+	4.	(Yolo) Track only cups.
 
 Super Task:
 	•	The drone in the room must find a cup and fly to that cup.
